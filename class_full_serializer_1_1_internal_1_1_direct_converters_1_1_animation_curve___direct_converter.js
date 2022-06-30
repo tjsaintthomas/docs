@@ -1,4 +1,0 @@
-var class_full_serializer_1_1_internal_1_1_direct_converters_1_1_animation_curve___direct_converter =
-[
-    [ "CreateInstance", "class_full_serializer_1_1_internal_1_1_direct_converters_1_1_animation_curve___direct_converter.html#ade5d37cdc1d926982bc5523d3745cfb7", null ]
-];

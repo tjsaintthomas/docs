@@ -1,4 +1,0 @@
-var class_full_serializer_1_1_internal_1_1_direct_converters_1_1_g_u_i_style_state___direct_converter =
-[
-    [ "CreateInstance", "class_full_serializer_1_1_internal_1_1_direct_converters_1_1_g_u_i_style_state___direct_converter.html#a11870a07fd7aade8717b1764137d9dbb", null ]
-];
