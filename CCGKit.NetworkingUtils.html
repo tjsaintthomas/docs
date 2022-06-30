@@ -1,0 +1,506 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetworkingUtils
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetworkingUtils
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CCGKit.NetworkingUtils">
+  
+  
+  <h1 id="CCGKit_NetworkingUtils" data-uid="CCGKit.NetworkingUtils" class="text-break">Class NetworkingUtils
+  </h1>
+  <div class="markdown level0 summary"><p>This class provides general networking utilities.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NetworkingUtils</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CCGKit.html">CCGKit</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="CCGKit_NetworkingUtils_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class NetworkingUtils : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetActiveLocalPlayer_" data-uid="CCGKit.NetworkingUtils.GetActiveLocalPlayer*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetActiveLocalPlayer" data-uid="CCGKit.NetworkingUtils.GetActiveLocalPlayer">GetActiveLocalPlayer()</h4>
+  <div class="markdown level1 summary"><p>Returns the active local player for this client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player GetActiveLocalPlayer()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.Player.html">Player</a></td>
+        <td><p>The active local player for this client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetHumanLocalPlayer_" data-uid="CCGKit.NetworkingUtils.GetHumanLocalPlayer*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetHumanLocalPlayer" data-uid="CCGKit.NetworkingUtils.GetHumanLocalPlayer">GetHumanLocalPlayer()</h4>
+  <div class="markdown level1 summary"><p>Returns the human local player for this client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player GetHumanLocalPlayer()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.Player.html">Player</a></td>
+        <td><p>The human local player for this client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetLocalPlayer_" data-uid="CCGKit.NetworkingUtils.GetLocalPlayer*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetLocalPlayer" data-uid="CCGKit.NetworkingUtils.GetLocalPlayer">GetLocalPlayer()</h4>
+  <div class="markdown level1 summary"><p>Returns the local player for this client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player GetLocalPlayer()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.Player.html">Player</a></td>
+        <td><p>The local player for this client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetNetCard_" data-uid="CCGKit.NetworkingUtils.GetNetCard*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetNetCard_CCGKit_RuntimeCard_" data-uid="CCGKit.NetworkingUtils.GetNetCard(CCGKit.RuntimeCard)">GetNetCard(RuntimeCard)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NetCard GetNetCard(RuntimeCard card)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.RuntimeCard.html">RuntimeCard</a></td>
+        <td><span class="parametername">card</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.NetCard.html">NetCard</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetNetKeyword_" data-uid="CCGKit.NetworkingUtils.GetNetKeyword*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetNetKeyword_CCGKit_RuntimeKeyword_" data-uid="CCGKit.NetworkingUtils.GetNetKeyword(CCGKit.RuntimeKeyword)">GetNetKeyword(RuntimeKeyword)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NetKeyword GetNetKeyword(RuntimeKeyword keyword)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.RuntimeKeyword.html">RuntimeKeyword</a></td>
+        <td><span class="parametername">keyword</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.NetKeyword.html">NetKeyword</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetNetStat_" data-uid="CCGKit.NetworkingUtils.GetNetStat*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetNetStat_CCGKit_Stat_" data-uid="CCGKit.NetworkingUtils.GetNetStat(CCGKit.Stat)">GetNetStat(Stat)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NetStat GetNetStat(Stat stat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.Stat.html">Stat</a></td>
+        <td><span class="parametername">stat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.NetStat.html">NetStat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetNetworkObject_" data-uid="CCGKit.NetworkingUtils.GetNetworkObject*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetNetworkObject_NetworkInstanceId_" data-uid="CCGKit.NetworkingUtils.GetNetworkObject(NetworkInstanceId)">GetNetworkObject(NetworkInstanceId)</h4>
+  <div class="markdown level1 summary"><p>Returns the network object with the specified network identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject GetNetworkObject(NetworkInstanceId netId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NetworkInstanceId</span></td>
+        <td><span class="parametername">netId</span></td>
+        <td><p>Network identifier of the network object we want to retrieve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><p>The network object with the specified network identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetRuntimeCard_" data-uid="CCGKit.NetworkingUtils.GetRuntimeCard*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetRuntimeCard_CCGKit_NetCard_" data-uid="CCGKit.NetworkingUtils.GetRuntimeCard(CCGKit.NetCard)">GetRuntimeCard(NetCard)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RuntimeCard GetRuntimeCard(NetCard netCard)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.NetCard.html">NetCard</a></td>
+        <td><span class="parametername">netCard</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.RuntimeCard.html">RuntimeCard</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetRuntimeKeyword_" data-uid="CCGKit.NetworkingUtils.GetRuntimeKeyword*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetRuntimeKeyword_CCGKit_NetKeyword_" data-uid="CCGKit.NetworkingUtils.GetRuntimeKeyword(CCGKit.NetKeyword)">GetRuntimeKeyword(NetKeyword)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RuntimeKeyword GetRuntimeKeyword(NetKeyword netKeyword)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.NetKeyword.html">NetKeyword</a></td>
+        <td><span class="parametername">netKeyword</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.RuntimeKeyword.html">RuntimeKeyword</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CCGKit_NetworkingUtils_GetRuntimeStat_" data-uid="CCGKit.NetworkingUtils.GetRuntimeStat*"></a>
+  <h4 id="CCGKit_NetworkingUtils_GetRuntimeStat_CCGKit_NetStat_" data-uid="CCGKit.NetworkingUtils.GetRuntimeStat(CCGKit.NetStat)">GetRuntimeStat(NetStat)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stat GetRuntimeStat(NetStat netStat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.NetStat.html">NetStat</a></td>
+        <td><span class="parametername">netStat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CCGKit.Stat.html">Stat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
