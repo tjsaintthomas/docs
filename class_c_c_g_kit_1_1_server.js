@@ -1,0 +1,27 @@
+var class_c_c_g_kit_1_1_server =
+[
+    [ "AddServerHandlers", "class_c_c_g_kit_1_1_server.html#a7f796698836d72e00d250dda1b91ac0d", null ],
+    [ "EndGame", "class_c_c_g_kit_1_1_server.html#aca99f4f9ba3e985e015846368bfbf61e", null ],
+    [ "EndTurn", "class_c_c_g_kit_1_1_server.html#a39f4feac0d8d2e75f513df8c4f22b9cc", null ],
+    [ "ExecuteGameAction", "class_c_c_g_kit_1_1_server.html#a4cae47209a2482129268aae1b99e7379", null ],
+    [ "LoadGameConfiguration", "class_c_c_g_kit_1_1_server.html#a3c659d88040018d46d9c79762b79bdff", null ],
+    [ "OnDestroy", "class_c_c_g_kit_1_1_server.html#a7451a88ad5dc58539325fe67de543f40", null ],
+    [ "OnPlayerConnected", "class_c_c_g_kit_1_1_server.html#aec9908d1da1096d0eba06ea7b627d93b", null ],
+    [ "OnPlayerDisconnected", "class_c_c_g_kit_1_1_server.html#a6109a5f6585c59c66dae9d7200ae5cf7", null ],
+    [ "OnStartServer", "class_c_c_g_kit_1_1_server.html#abb2f2272550c03dafa4fc5d19505c4a5", null ],
+    [ "PerformTurnStartStateInitialization", "class_c_c_g_kit_1_1_server.html#afac067e638a06ab1edcc063956d90072", null ],
+    [ "RegisterServerHandlers", "class_c_c_g_kit_1_1_server.html#a24ba9f67bf5ea314d226db84bbf28dc3", null ],
+    [ "RunTurn", "class_c_c_g_kit_1_1_server.html#a7badf59a080f3ad0e346cdf7693a6f72", null ],
+    [ "StartGame", "class_c_c_g_kit_1_1_server.html#a4a943be82d75d919fe4a8275ad0ba2ab", null ],
+    [ "StartTurn", "class_c_c_g_kit_1_1_server.html#a64ac97d31d0b00b5fe7737a84ec34c1f", null ],
+    [ "StopTurn", "class_c_c_g_kit_1_1_server.html#a9122e4b3820e9d9db0017b6f1c03f052", null ],
+    [ "UnregisterServerHandlers", "class_c_c_g_kit_1_1_server.html#ac598317ecb6c4543bb9e66415ee8118e", null ],
+    [ "currentPlayerIndex", "class_c_c_g_kit_1_1_server.html#af01e0e4019c7e9eda32efbf033474d38", null ],
+    [ "currentTurn", "class_c_c_g_kit_1_1_server.html#afe5c735c071b73d04707b7421d1006c5", null ],
+    [ "gameFinished", "class_c_c_g_kit_1_1_server.html#a7b079463aeb1e25de4aeb0fe5b4136af", null ],
+    [ "gameState", "class_c_c_g_kit_1_1_server.html#a4c3bb2ec5b2f2530dee29d856aee2ad6", null ],
+    [ "handlers", "class_c_c_g_kit_1_1_server.html#a4805b7f15ffc7726a909294a453792f2", null ],
+    [ "turnCoroutine", "class_c_c_g_kit_1_1_server.html#abb0dc1b7ba926e93c8d50aaf4b859fa2", null ],
+    [ "effectSolver", "class_c_c_g_kit_1_1_server.html#acf2f64c94626fa6d8440632a44b48b51", null ],
+    [ "turnDuration", "class_c_c_g_kit_1_1_server.html#a1494f8e5b10de89ba4cf555d6259e2c0", null ]
+];

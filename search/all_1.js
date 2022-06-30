@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['abilities_0',['abilities',['../class_c_c_g_kit_1_1_card.html#af6f2da4ab9949feea8abe8a9aa4e9580',1,'CCGKit::Card']]],
+  ['ability_1',['Ability',['../class_c_c_g_kit_1_1_ability.html',1,'CCGKit']]],
+  ['abilitytype_2',['AbilityType',['../namespace_c_c_g_kit.html#a9d54690795347444297318f6fa10943a',1,'CCGKit']]],
+  ['abouteditor_3',['AboutEditor',['../class_c_c_g_kit_1_1_about_editor.html',1,'CCGKit']]],
+  ['activateability_4',['ActivateAbility',['../class_c_c_g_kit_1_1_effect_solver.html#a04bbe35b1d85ec368f07ebd74e98ae95',1,'CCGKit::EffectSolver']]],
+  ['activateabilitymessage_5',['ActivateAbilityMessage',['../class_c_c_g_kit_1_1_activate_ability_message.html',1,'CCGKit']]],
+  ['activatedability_6',['ActivatedAbility',['../class_c_c_g_kit_1_1_activated_ability.html#adbd4391a71e73e21a5dc067e50717cd6',1,'CCGKit.ActivatedAbility.ActivatedAbility()'],['../class_c_c_g_kit_1_1_activated_ability.html',1,'CCGKit.ActivatedAbility']]],
+  ['addcard_7',['AddCard',['../class_c_c_g_kit_1_1_deck.html#a58ad60bebeb809fbc0147603f2e0fba4',1,'CCGKit.Deck.AddCard()'],['../class_c_c_g_kit_1_1_runtime_zone.html#ae644fe6fa5031b53aad14c3b0ed62010',1,'CCGKit.RuntimeZone.AddCard(RuntimeCard card)']]],
+  ['addcardcreatedbyeffect_8',['AddCardCreatedByEffect',['../class_c_c_g_kit_1_1_runtime_zone.html#a6b941899013d87b7edefabb3cfea280a',1,'CCGKit::RuntimeZone']]],
+  ['addkeyword_9',['AddKeyword',['../class_c_c_g_kit_1_1_runtime_card.html#a8c81f3ed762cdb4c91d01977660a0aea',1,'CCGKit::RuntimeCard']]],
+  ['addkeywordeffect_10',['AddKeywordEffect',['../class_c_c_g_kit_1_1_add_keyword_effect.html',1,'CCGKit']]],
+  ['addlocalplayer_11',['AddLocalPlayer',['../class_c_c_g_kit_1_1_game_network_client.html#ac9979e60e67e53586282d475498a6b52',1,'CCGKit::GameNetworkClient']]],
+  ['addmodifier_12',['AddModifier',['../class_c_c_g_kit_1_1_stat.html#a4aa4039a1f6be0df22283f69cf4ea43c',1,'CCGKit::Stat']]],
+  ['addserverhandlers_13',['AddServerHandlers',['../class_c_c_g_kit_1_1_server.html#a7f796698836d72e00d250dda1b91ac0d',1,'CCGKit.Server.AddServerHandlers()'],['../class_demo_server.html#a3e4b7893133b9f8dbe21e1ce241d2ebb',1,'DemoServer.AddServerHandlers()']]],
+  ['addtextentry_14',['AddTextEntry',['../class_c_c_g_kit_1_1_chat_dialog.html#a5ed32f50c6392eacf10d576b72f7c223',1,'CCGKit::ChatDialog']]],
+  ['aiplayerprefab_15',['aiPlayerPrefab',['../class_game_network_manager.html#a32559186f9fe2cd77184c007dd2bed85',1,'GameNetworkManager']]],
+  ['allcards_16',['AllCards',['../class_c_c_g_kit_1_1_all_cards.html',1,'CCGKit']]],
+  ['allopponentcards_17',['AllOpponentCards',['../class_c_c_g_kit_1_1_all_opponent_cards.html',1,'CCGKit']]],
+  ['allplayercards_18',['AllPlayerCards',['../class_c_c_g_kit_1_1_all_player_cards.html',1,'CCGKit']]],
+  ['allplayers_19',['AllPlayers',['../class_c_c_g_kit_1_1_all_players.html',1,'CCGKit']]],
+  ['amount_20',['amount',['../class_c_c_g_kit_1_1_deck_entry.html#a1abab86dda423dfd554b1deedc1f5050',1,'CCGKit::DeckEntry']]],
+  ['aretargetsavailable_21',['AreTargetsAvailable',['../class_c_c_g_kit_1_1_effect.html#a55e8db4dd11c9f57f756244f08565cfd',1,'CCGKit.Effect.AreTargetsAvailable()'],['../class_c_c_g_kit_1_1_player_effect.html#a8fa3928ff47f838632b90557663da672',1,'CCGKit.PlayerEffect.AreTargetsAvailable()'],['../class_c_c_g_kit_1_1_card_effect.html#a6d27b2606c687a789c3692c2901a3ff1',1,'CCGKit.CardEffect.AreTargetsAvailable()'],['../class_c_c_g_kit_1_1_move_card_effect.html#a5b58538c80d70de31fa6ddaa0a46c593',1,'CCGKit.MoveCardEffect.AreTargetsAvailable()'],['../class_c_c_g_kit_1_1_effect_solver.html#a923448e7c0c10e5d71dbce6424a356ab',1,'CCGKit.EffectSolver.AreTargetsAvailable()']]],
+  ['audiomanager_22',['AudioManager',['../class_audio_manager.html',1,'']]],
+  ['awake_23',['Awake',['../class_demo_a_i_player.html#aea53b446f26160e03dbfbffa01d4c598',1,'DemoAIPlayer']]]
+];

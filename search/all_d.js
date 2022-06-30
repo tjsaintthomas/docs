@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['name_0',['name',['../class_c_c_g_kit_1_1_ability.html#acc95306c1d86449c93748abfcab373f5',1,'CCGKit.Ability.name()'],['../class_c_c_g_kit_1_1_card.html#a32d1872c0caff13012231f9e10340e1a',1,'CCGKit.Card.name()'],['../class_c_c_g_kit_1_1_card_set.html#a0c923ef023a873d10bd80adaee60adb9',1,'CCGKit.CardSet.name()'],['../class_c_c_g_kit_1_1_card_type.html#ab135b892cdb34ddfbb8039fb682e490e',1,'CCGKit.CardType.name()'],['../class_c_c_g_kit_1_1_deck.html#a1d34293b4f446d919e39190f0c3084fe',1,'CCGKit.Deck.name()'],['../class_c_c_g_kit_1_1_definition_stat.html#ac6216be55d890d2338d04563d905722e',1,'CCGKit.DefinitionStat.name()'],['../class_c_c_g_kit_1_1_game_action.html#a5ad4bd83ca7878bba324988f46564dc0',1,'CCGKit.GameAction.name()'],['../class_c_c_g_kit_1_1_game_zone_type.html#aec05fad8296047623f31840ded3a9bc6',1,'CCGKit.GameZoneType.name()'],['../class_c_c_g_kit_1_1_keyword.html#a71b5dcd9c752e99a42ccab42bb56eb19',1,'CCGKit.Keyword.name()'],['../class_c_c_g_kit_1_1_property.html#a92b3395fe5eb4c4eeeff990830060f37',1,'CCGKit.Property.name()'],['../class_c_c_g_kit_1_1_runtime_zone.html#a3be6c49ac341ff32f46c3059c5f15f4b',1,'CCGKit.RuntimeZone.name()'],['../class_c_c_g_kit_1_1_stat.html#a3d596286e295fb1f26bd148cb0fee7ff',1,'CCGKit.Stat.name()']]],
+  ['namedstats_1',['namedStats',['../class_c_c_g_kit_1_1_player_info.html#a199ae5a1a41a661293b1ee422b30c0fc',1,'CCGKit.PlayerInfo.namedStats()'],['../class_c_c_g_kit_1_1_runtime_card.html#ac065ce78f6af0881dca3b7cc7bd33215',1,'CCGKit.RuntimeCard.namedStats()']]],
+  ['namedzones_2',['namedZones',['../class_c_c_g_kit_1_1_player_info.html#a213cdf6227b1f751b4882f502141c422',1,'CCGKit::PlayerInfo']]],
+  ['netcard_3',['NetCard',['../struct_c_c_g_kit_1_1_net_card.html',1,'CCGKit']]],
+  ['netdynamiczone_4',['NetDynamicZone',['../struct_c_c_g_kit_1_1_net_dynamic_zone.html',1,'CCGKit']]],
+  ['netid_5',['netId',['../class_c_c_g_kit_1_1_player_info.html#a85bd001b7b3aae0ba8f78e8f6f2c3895',1,'CCGKit::PlayerInfo']]],
+  ['netkeyword_6',['NetKeyword',['../struct_c_c_g_kit_1_1_net_keyword.html',1,'CCGKit']]],
+  ['netmodifier_7',['NetModifier',['../struct_c_c_g_kit_1_1_net_modifier.html',1,'CCGKit']]],
+  ['netplayerinfo_8',['NetPlayerInfo',['../struct_c_c_g_kit_1_1_net_player_info.html',1,'CCGKit']]],
+  ['netstat_9',['NetStat',['../struct_c_c_g_kit_1_1_net_stat.html',1,'CCGKit']]],
+  ['netstaticcard_10',['NetStaticCard',['../struct_c_c_g_kit_1_1_net_static_card.html',1,'CCGKit']]],
+  ['netstaticzone_11',['NetStaticZone',['../struct_c_c_g_kit_1_1_net_static_zone.html',1,'CCGKit']]],
+  ['networkprotocol_12',['NetworkProtocol',['../class_c_c_g_kit_1_1_network_protocol.html',1,'CCGKit']]],
+  ['nickname_13',['nickname',['../class_c_c_g_kit_1_1_player_info.html#a01222d21957c92be7f6a3cfad5f9378c',1,'CCGKit::PlayerInfo']]],
+  ['numcards_14',['numCards',['../class_c_c_g_kit_1_1_move_cards_action.html#ad504da908904179190946bbd6b753efc',1,'CCGKit.MoveCardsAction.numCards()'],['../class_c_c_g_kit_1_1_runtime_zone.html#a262b15a2533679bd56fc9ef15a4de148',1,'CCGKit.RuntimeZone.numCards()']]],
+  ['numturn_15',['numTurn',['../class_c_c_g_kit_1_1_player_info.html#a30126759915efda8a3de02257c206463',1,'CCGKit::PlayerInfo']]]
+];

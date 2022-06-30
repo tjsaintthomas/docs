@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['onactivateability_0',['OnActivateAbility',['../class_c_c_g_kit_1_1_game_network_client.html#a1c6321e55f11e1d28486c2e3cc067a0a',1,'CCGKit::GameNetworkClient']]],
+  ['oncardmoved_1',['OnCardMoved',['../class_c_c_g_kit_1_1_game_network_client.html#a29efbeee008aed94dd18abfd74d72627',1,'CCGKit::GameNetworkClient']]],
+  ['onchatbuttonpressed_2',['OnChatButtonPressed',['../class_game_scene.html#a52489648881dcf552b805bc1f639daef',1,'GameScene']]],
+  ['onchatinputfieldeditended_3',['OnChatInputFieldEditEnded',['../class_c_c_g_kit_1_1_chat_dialog.html#ae9a8bbbce662d66b5d24d324eaf0b230',1,'CCGKit::ChatDialog']]],
+  ['onclosebuttonpressed_4',['OnCloseButtonPressed',['../class_c_c_g_kit_1_1_chat_dialog.html#a221cf52fe14df16dc6eb41a64bcbf566',1,'CCGKit::ChatDialog']]],
+  ['oncreatureattacked_5',['OnCreatureAttacked',['../class_c_c_g_kit_1_1_game_network_client.html#a5bd25e8fd30ebbf29dd7726508549033',1,'CCGKit::GameNetworkClient']]],
+  ['ondestroy_6',['OnDestroy',['../class_c_c_g_kit_1_1_game_network_client.html#a7e8fdad782c596c7c42394ffe162b689',1,'CCGKit.GameNetworkClient.OnDestroy()'],['../class_c_c_g_kit_1_1_server.html#a7451a88ad5dc58539325fe67de543f40',1,'CCGKit.Server.OnDestroy()']]],
+  ['onendgame_7',['OnEndGame',['../class_c_c_g_kit_1_1_game_network_client.html#a10672fa9116be9814c633fa9c7599cb6',1,'CCGKit.GameNetworkClient.OnEndGame()'],['../class_demo_a_i_player.html#a9f832aa6af1f01f33b80b7eb29111d5d',1,'DemoAIPlayer.OnEndGame()']]],
+  ['onendturn_8',['OnEndTurn',['../class_c_c_g_kit_1_1_game_network_client.html#a2ab5edf13f29a7b32f0c27e4fb8a6bf1',1,'CCGKit.GameNetworkClient.OnEndTurn()'],['../class_c_c_g_kit_1_1_server_handler.html#a71d495c33784fc4e9d7374b7a12150ca',1,'CCGKit.ServerHandler.OnEndTurn()'],['../class_c_c_g_kit_1_1_stat.html#a0ca163a93f3f64327a79968ce9f1f4b4',1,'CCGKit.Stat.OnEndTurn()'],['../class_demo_a_i_player.html#acb74d29ed64892505013356cf6f7b632',1,'DemoAIPlayer.OnEndTurn()']]],
+  ['onendturnbuttonpressed_9',['OnEndTurnButtonPressed',['../class_game_scene.html#af9ef99b41a22a7ddeb8cffdf87dfb1b4',1,'GameScene']]],
+  ['onexitgamebuttonpressed_10',['OnExitGameButtonPressed',['../class_game_scene.html#a25495cbf5baec713d9a6953221b3059a',1,'GameScene']]],
+  ['onopponentdrewcards_11',['OnOpponentDrewCards',['../class_c_c_g_kit_1_1_game_network_client.html#a7bf98999c34f2fd1d87ea45afeb74ccc',1,'CCGKit::GameNetworkClient']]],
+  ['onplayerattacked_12',['OnPlayerAttacked',['../class_c_c_g_kit_1_1_game_network_client.html#ac5ad066c936c623a4af30de431ccede3',1,'CCGKit::GameNetworkClient']]],
+  ['onplayerconnected_13',['OnPlayerConnected',['../class_c_c_g_kit_1_1_server.html#aec9908d1da1096d0eba06ea7b627d93b',1,'CCGKit::Server']]],
+  ['onplayerdisconnected_14',['OnPlayerDisconnected',['../class_c_c_g_kit_1_1_server.html#a6109a5f6585c59c66dae9d7200ae5cf7',1,'CCGKit::Server']]],
+  ['onplayerdrewcards_15',['OnPlayerDrewCards',['../class_c_c_g_kit_1_1_game_network_client.html#a5ab85834b86ec36a9d9610154e2749f4',1,'CCGKit::GameNetworkClient']]],
+  ['onreceivechattext_16',['OnReceiveChatText',['../class_c_c_g_kit_1_1_game_network_client.html#a431dfa9a0e83271dedd3d6ed45c180af',1,'CCGKit::GameNetworkClient']]],
+  ['onsendbuttonpressed_17',['OnSendButtonPressed',['../class_c_c_g_kit_1_1_chat_dialog.html#a6911525e7526d4ebe90e39929a6a5995',1,'CCGKit::ChatDialog']]],
+  ['onstartclient_18',['OnStartClient',['../class_c_c_g_kit_1_1_game_network_client.html#abf4ba7982661822f08e2b5d3e8beb0bd',1,'CCGKit::GameNetworkClient']]],
+  ['onstartgame_19',['OnStartGame',['../class_c_c_g_kit_1_1_game_network_client.html#a8ec9ccb6924d4384bcc61db9b3159085',1,'CCGKit.GameNetworkClient.OnStartGame()'],['../class_demo_a_i_player.html#adc21f5d660257711d1d0ed0a0f8ba456',1,'DemoAIPlayer.OnStartGame()']]],
+  ['onstartserver_20',['OnStartServer',['../class_c_c_g_kit_1_1_server.html#abb2f2272550c03dafa4fc5d19505c4a5',1,'CCGKit::Server']]],
+  ['onstartturn_21',['OnStartTurn',['../class_c_c_g_kit_1_1_game_network_client.html#a9b490371adf5cc680b959a4c8b36b9be',1,'CCGKit.GameNetworkClient.OnStartTurn()'],['../class_c_c_g_kit_1_1_server_handler.html#ac8528c58ed6ecee4ea121a48e33213dc',1,'CCGKit.ServerHandler.OnStartTurn()'],['../class_demo_a_i_player.html#a0a20de73211274778ba5bbb78ca37ab0',1,'DemoAIPlayer.OnStartTurn()']]],
+  ['onturnended_22',['OnTurnEnded',['../class_c_c_g_kit_1_1_effect_solver.html#a50351c6e7cffc8b2a468f0cc633de6e1',1,'CCGKit::EffectSolver']]],
+  ['onturnstarted_23',['OnTurnStarted',['../class_c_c_g_kit_1_1_effect_solver.html#a04f7bf52dd651cfb2e40becbf8bacc0b',1,'CCGKit::EffectSolver']]],
+  ['orderattribute_24',['OrderAttribute',['../class_c_c_g_kit_1_1_order_attribute.html#ae4b09b121b5d839e0f72b34e87d0a92e',1,'CCGKit::OrderAttribute']]]
+];
