@@ -6,6 +6,7 @@
 - [Card Examples](#card-examples)
 - [Game Rules](#game-rules)
 - [Usage Examples](#usage-examples)
+- [API Reference](#api-reference)
 
 ## JSON Structure Overview
 
@@ -168,3 +169,51 @@ The rules object defines core game mechanics:
   "action": "endTurn",
   "player": "Player1"
 }
+```
+
+## API Reference
+
+### Game State Management
+
+#### Initialize Game
+```json
+{
+  "action": "initializeGame",
+  "players": ["Player1", "Player2"],
+  "startingHealth": 20,
+  "startingMana": 1
+}
+```
+
+#### Get Game State
+```json
+{
+  "action": "getGameState",
+  "includeHiddenInfo": false
+}
+```
+
+### Card Operations
+
+#### Play Card
+- **cardId**: ID of the card to play
+- **target**: Target for the card (player name, card ID, or null)
+- **position**: For creature cards, battlefield position
+
+#### Ability Targeting
+Cards with abilities may require specific targets:
+- **Any target**: Can target any player or creature
+- **Enemy target**: Must target opponent or opponent's creatures
+- **Friendly target**: Must target self or own creatures
+
+### Turn Management
+
+#### Turn Phases
+1. **Draw Phase**: Draw one card from deck
+2. **Main Phase**: Play cards and activate abilities
+3. **End Phase**: Resolve end-of-turn effects
+
+#### Mana System
+- Players start with 1 mana
+- Gain +1 maximum mana each turn (up to 10)
+- Mana refreshes to maximum at start of turn
