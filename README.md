@@ -1,7 +1,16 @@
-initial
-# Collectible Card Game (CCG) Framework Sample JSON
+# Collectible Card Game (CCG) Framework Documentation
 
-Here is a general JSON sample for a CCG (Collectible Card Game) framework, covering cards, players, decks, and game state:
+## Table of Contents
+- [JSON Structure Overview](#json-structure-overview)
+- [Game Structure](#game-structure)
+- [Card Examples](#card-examples)
+- [Game Rules](#game-rules)
+- [Usage Examples](#usage-examples)
+- [API Reference](#api-reference)
+
+## JSON Structure Overview
+
+Here is a comprehensive JSON sample for a CCG (Collectible Card Game) framework, covering cards, players, decks, and game state:
 
 ```json
 {
@@ -44,8 +53,46 @@ Here is a general JSON sample for a CCG (Collectible Card Game) framework, cover
       "attack": 4,
       "health": 2,
       "ability": "Deal 2 damage to enemy hero when played."
+    },
+    {
+      "id": 103,
+      "name": "Healing Potion",
+      "type": "Spell",
+      "cost": 2,
+      "ability": "Restore 5 health to target."
+    },
+    {
+      "id": 104,
+      "name": "Stone Guardian",
+      "type": "Creature",
+      "cost": 5,
+      "attack": 2,
+      "health": 8,
+      "ability": "Taunt: Enemies must attack this creature first."
+    },
+    {
+      "id": 105,
+      "name": "Wind Sprint",
+      "type": "Spell",
+      "cost": 1,
+      "ability": "Draw 2 cards."
+    },
+    {
+      "id": 201,
+      "name": "Ice Shard",
+      "type": "Spell",
+      "cost": 3,
+      "ability": "Deal 4 damage and freeze target for 1 turn."
+    },
+    {
+      "id": 202,
+      "name": "Forest Druid",
+      "type": "Creature",
+      "cost": 3,
+      "attack": 2,
+      "health": 3,
+      "ability": "At end of turn, gain +1/+1."
     }
-    // ... more card definitions ...
   ],
   "rules": {
     "startingHandSize": 5,
@@ -55,4 +102,118 @@ Here is a general JSON sample for a CCG (Collectible Card Game) framework, cover
 }
 ```
 
-This sample covers the basic structure for cards, players, decks, and rules in a CCG framework.
+## Game Structure
+
+The CCG framework consists of several core components:
+
+### Game Object
+- **title**: The name of the game
+- **players**: Array of player objects (typically 2 players)
+- **turn**: Current turn number
+- **activePlayer**: Name of the player whose turn it is
+
+### Player Structure
+Each player has:
+- **name**: Player identifier
+- **health**: Current health points (game ends when reaches 0)
+- **mana**: Available resources to play cards
+- **hand**: Array of card IDs currently in player's hand
+- **deck**: Array of card IDs remaining in player's deck
+
+## Card Examples
+
+The framework supports different card types:
+
+### Creature Cards
+Creature cards have attack and health values and can engage in combat:
+- **Lightning Mage**: A balanced creature with a targeted damage ability
+- **Fire Elemental**: High attack, low health with direct damage
+- **Stone Guardian**: Defensive creature with taunt ability
+- **Forest Druid**: Growth-oriented creature that gets stronger over time
+
+### Spell Cards
+Spell cards provide immediate effects:
+- **Healing Potion**: Restoration spell for health recovery
+- **Wind Sprint**: Card draw for hand advantage
+- **Ice Shard**: Damage spell with additional freeze effect
+
+## Game Rules
+
+The rules object defines core game mechanics:
+- **startingHandSize**: Number of cards each player starts with (5)
+- **maxHandSize**: Maximum cards a player can hold (7)
+- **winCondition**: Primary victory condition (reduce opponent's health to 0)
+
+## Usage Examples
+
+### Playing a Card
+```json
+{
+  "action": "playCard",
+  "cardId": 101,
+  "target": "Player2"
+}
+```
+
+### Drawing a Card
+```json
+{
+  "action": "drawCard",
+  "player": "Player1"
+}
+```
+
+### End Turn
+```json
+{
+  "action": "endTurn",
+  "player": "Player1"
+}
+```
+
+## API Reference
+
+### Game State Management
+
+#### Initialize Game
+```json
+{
+  "action": "initializeGame",
+  "players": ["Player1", "Player2"],
+  "startingHealth": 20,
+  "startingMana": 1
+}
+```
+
+#### Get Game State
+```json
+{
+  "action": "getGameState",
+  "includeHiddenInfo": false
+}
+```
+
+### Card Operations
+
+#### Play Card
+- **cardId**: ID of the card to play
+- **target**: Target for the card (player name, card ID, or null)
+- **position**: For creature cards, battlefield position
+
+#### Ability Targeting
+Cards with abilities may require specific targets:
+- **Any target**: Can target any player or creature
+- **Enemy target**: Must target opponent or opponent's creatures
+- **Friendly target**: Must target self or own creatures
+
+### Turn Management
+
+#### Turn Phases
+1. **Draw Phase**: Draw one card from deck
+2. **Main Phase**: Play cards and activate abilities
+3. **End Phase**: Resolve end-of-turn effects
+
+#### Mana System
+- Players start with 1 mana
+- Gain +1 maximum mana each turn (up to 10)
+- Mana refreshes to maximum at start of turn
